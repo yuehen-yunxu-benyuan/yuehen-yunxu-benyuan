@@ -1,0 +1,13 @@
+# 月痕·云叙·本源 — 依赖清单
+# 零外部依赖（全部标准库），Nemotron 适配器可选
+
+# 核心运行：Python 3.9+ 标准库即可
+#   os, sys, json, time, urllib, threading, hashlib, base64, struct, socket
+
+# Nemotron 推理脉（可选，比赛合规用）
+#   Nebius 推理端点直接用 urllib.request，不需要额外包
+#   设置环境变量 NEBIUS_API_KEY 即可启用
+
+# 视频 Demo（可选）
+#   opencv-python>=4.8
+#   pillow>=10.0
